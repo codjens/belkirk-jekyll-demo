@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _events/*
+  label: Events
+  match: "**/*"
+  read_only: false
 - type: heading
   label: Content
 - type: jekyll-posts
