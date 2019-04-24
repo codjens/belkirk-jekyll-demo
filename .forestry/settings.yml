@@ -7,6 +7,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: _bannen
+  label: Bannen
+  create: documents
+  match: "**/*"
+  templates:
+  - ban
+- type: directory
   path: _events/*
   label: Events
   create: all
