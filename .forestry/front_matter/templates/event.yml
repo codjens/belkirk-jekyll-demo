@@ -1,4 +1,63 @@
 ---
 label: event
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: startdate
+  type: datetime
+  label: startDate
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: H:mm ZZ
+    display_utc: 
+  default: ''
+- name: enddate
+  type: datetime
+  label: enddate
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: H:mm ZZ
+    display_utc: 
+- name: ispublished
+  type: boolean
+  label: isPublished
+  default: false
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: description
+- name: image1
+  type: file
+  config:
+    maxSize: 250
+  label: image1
+- name: image2
+  type: file
+  config:
+    maxSize: 250
+  label: image2
+- name: ban
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: people
+      file: _people/kellie-brewer.md
+      path: 
+  label: ban
