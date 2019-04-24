@@ -61,3 +61,5 @@ fields:
       file: _people/kellie-brewer.md
       path: 
   label: ban
+pages:
+- _events/*/startvergadering.md
