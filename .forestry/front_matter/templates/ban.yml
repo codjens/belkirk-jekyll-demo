@@ -8,6 +8,7 @@ fields:
     required: true
   label: name
 pages:
+- _bannen/piepers.md
 - _bannen/plus16.md
 - _bannen/knapen.md
 - _bannen/jonghernieuwers.md
