@@ -26,10 +26,6 @@ fields:
     date_format: DD/MM/YYYY
     time_format: H:mm ZZ
     display_utc: 
-- name: ispublished
-  type: boolean
-  label: isPublished
-  default: false
 - name: description
   type: textarea
   default: ''
