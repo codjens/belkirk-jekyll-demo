@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: ''
+  path: _events/*
   label: Events
   create: all
   match: "**/*"
