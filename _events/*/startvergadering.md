@@ -1,5 +1,5 @@
 ---
-ban: []
+ban: _bannen/sloebers.md
 title: Startvergadering
 startdate: 2019-04-27 12:00:00 +0000
 enddate: 2019-04-27 12:00:00 +0000
