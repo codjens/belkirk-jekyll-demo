@@ -49,12 +49,12 @@ fields:
   type: select
   default: []
   config:
-    required: false
+    required: true
     options: []
     source:
       type: pages
-      section: people
-      file: _people/kellie-brewer.md
+      section: bannen
+      file: _bannen/plus16.md
       path: 
   label: ban
 pages:
